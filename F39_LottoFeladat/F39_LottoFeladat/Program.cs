@@ -11,13 +11,8 @@ namespace F39_LottoFeladat
         public static void szamRendez()
         {
             Console.WriteLine("Adja meg az 52. heti sorsolás nyerőszámait: ");
-            int szamok = Convert.ToInt32(Console.ReadLine());
 
-            int[] szamTomb = new int[szamok];
 
-            Array.Sort(szamTomb);
-
-            Console.WriteLine("A nyerőszámok sorrendben: " + szamTomb);
         }
 
         static void Main(string[] args)
